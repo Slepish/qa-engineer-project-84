@@ -1,1 +1,12 @@
-
+---
+- summary: |
+    Не работает фильтрация товаров по цене
+  environment: |
+    https://hexlet-products-store.vercel.app/
+  steps-to-reproduce: |
+    - В поле "От" вводим 220
+    - В поле "До" вводим 230
+  expected-result: |
+    Выводятся товары в соответствии с выбранным диапозоном
+  actual-result: |
+    Не выводится ни один товар
